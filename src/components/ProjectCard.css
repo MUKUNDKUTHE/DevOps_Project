@@ -1,0 +1,16 @@
+.project-card {
+  background: linear-gradient(135deg, #1f2933, #111827);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+.project-card h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
